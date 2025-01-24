@@ -1,0 +1,113 @@
+/* Add a full-box design with shadow */
+.style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #f7f9fc; /* Light background for contrast */
+  }
+  
+  .signup-container {
+    display: flex;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Shadow for a subtle 3D effect */
+    border-radius: 12px; /* Rounded corners */
+    overflow: hidden; 
+    width: 60%;/* Full viewport height */
+    /* Ensures content stays within rounded corners */
+    background-color: white;
+  }
+  
+  .signup-left-side,
+  .signup-right-side {
+    flex: 1; /* Equal space for both sections */
+    height: 475px; /* Consistent height */
+  }
+  
+  /* Adjusted left-side */
+  .signup-left-side {
+    background-image: url('https://t4.ftcdn.net/jpg/03/00/73/57/360_F_300735766_SzF67UoGgWF9IQ9XTH1YKLi29JQhbMYu.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 515px;
+  }
+  
+  /* Adjusted right-side */
+  .signup-right-side {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px; /* Add padding for better spacing */
+  }
+  
+  .signup-right-side h2 {
+    color: #d1495b;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+  /* Form styling */
+  .form-group {
+    width: 100%;
+    margin-bottom: 1.2rem;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .signup-btn {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #d1495b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .signup-btn:hover {
+    background-color: #b83d4c;
+  }
+  
+  .login-link {
+    margin-top: 1rem;
+    text-align: center;
+    
+  }
+  .login-link a{
+    text-decoration: none; 
+  }
+  .login-link a:hover{
+    text-decoration: underline;
+  }
+
+  .main-heading {
+    font-size: 2.5rem; /* Adjust size as needed */
+    font-weight: bold; /* Bold text for emphasis */
+    margin-bottom: 10px; /* Space between the two lines */
+  }
+  
+  /* Smaller white font for the subheading */
+  .sub-heading {
+    font-size: 1.2rem; /* Adjust size as needed */
+    color: #fff; /* Ensures it remains white */
+    line-height: 1.5; /* Better spacing for readability */
+    margin: 0;
+    margin-bottom: 120px;
+  }
+  h1{
+    color: white;
+  }
+  
